@@ -9,6 +9,10 @@ const createTask=(evento)=>{
     task.classList.add('card')
     input.value='';
     const taskContent = document.createElement('div')
+    const titleTask=document.createElement('span')
+    titleTask.classList.add('task')
+    
+
 
 };
 
